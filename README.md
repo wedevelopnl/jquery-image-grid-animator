@@ -3,6 +3,7 @@ jquery-image-grid-animator
 
 jQuery plugin; turns a list of images into a grid with hover animations
 
+    ```html
     <ul class="gridify">
         <li><img src="img/chrysanthemum.jpg" /></li>
         <li data-height="2" data-right="2" data-down="0"><img src="img/tulips.jpg" /></li>
@@ -24,4 +25,5 @@ jQuery plugin; turns a list of images into a grid with hover animations
             $('.gridify').imageGridify();
         });
     </script>
+    ```
 
