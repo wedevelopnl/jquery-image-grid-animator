@@ -93,6 +93,8 @@
                 }
                 imageGrid.append(fullBlock);
             });
+            imageGrid.find('.partial-block:first-child').addClass('first-block');
+            imageGrid.find('.partial-block:last-child').addClass('last-block');
             imageGridContainer.append(imageGrid);
             element.after(imageGridContainer);
             return imageGridContainer;
