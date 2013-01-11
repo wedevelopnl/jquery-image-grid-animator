@@ -2,7 +2,7 @@
  * Image Grid Animator 1.0
  * © The Webmen 2013
  */
- 
+
 .image-grid {
     margin-top:200px;
     height:430px;
@@ -62,4 +62,8 @@
 
 .image-grid .revealed {
     border:10px solid #fff !important;
+}
+
+.image-grid .expand img {
+    position:absolute;
 }
